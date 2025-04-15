@@ -66,6 +66,7 @@ function Main() {
         <div className="main-bottom">
           <div className="search-box">
             <input
+              className="input  w-[100%] "
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
@@ -78,9 +79,9 @@ function Main() {
               }}
               value={input}
               type="text"
-              placeholder="Enter a prompt here"
+              placeholder="Enter a prompt here..."
             />
-            <div className="input-icon">
+            <div className="input-icon ">
               <img src={assets.gallery_icon} alt="" />
               <img src={assets.mic_icon} alt="" />
               {input !== "" ? (
