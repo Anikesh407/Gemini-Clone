@@ -66,7 +66,7 @@ function Main() {
         <div className="main-bottom">
           <div className="search-box">
             <input
-              className="input  w-[100%] "
+              className="input min-w-[245px]  w-[100%] "
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
